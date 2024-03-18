@@ -6,7 +6,7 @@ document.getElementById('pontoColetaForm').addEventListener('submit', async (e) 
   const cep = document.getElementById('cep').value;
   const bairro = document.getElementById('bairro').value;
 
-  const response = await fetch('<seu-endereço-replit>/pontos-coleta', {
+  const response = await fetch('https://83b19784-dda7-4d9e-975e-7a93f3b82e1c-00-1ehewumuks9f3.spock.replit.dev//pontos-coleta', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json'
